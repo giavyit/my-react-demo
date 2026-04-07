@@ -29,7 +29,7 @@ This project strictly adheres to the **Atomic Design** methodology to structure 
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/) (v16+ recommended)
-- npm or yarn
+- [Yarn](https://yarnpkg.com/)
 
 ### Installation
 
@@ -39,32 +39,32 @@ This project strictly adheres to the **Atomic Design** methodology to structure 
    ```
 2. Install the dependencies:
    ```bash
-   npm install
+   yarn install
    ```
 
 ## 🛠️ Available Scripts
 
 In the project directory, you can run:
 
-- `npm run dev`: Starts the Vite development server with hot-module replacement.
-- `npm run build`: Type-checks the code and builds the app for production to the `dist` folder.
-- `npm run preview`: Bootstraps a local server to preview the production build.
-- `npm run lint`: Runs ESLint to find and fix problems in your code.
-- `npm run test`: Runs unit tests using Vitest.
-- `npm run test:ui`: Runs unit tests and opens the Vitest UI in your browser.
-- `npm run storybook`: Starts the Storybook development server on port 6006.
-- `npm run build-storybook`: Builds the Storybook documentation for production deployment.
+- `yarn dev`: Starts the Vite development server with hot-module replacement.
+- `yarn build`: Type-checks the code and builds the app for production to the `dist` folder.
+- `yarn preview`: Bootstraps a local server to preview the production build.
+- `yarn lint`: Runs ESLint to find and fix problems in your code.
+- `yarn test`: Runs unit tests using Vitest.
+- `yarn test:ui`: Runs unit tests and opens the Vitest UI in your browser.
+- `yarn storybook`: Starts the Storybook development server on port 6006.
+- `yarn build-storybook`: Builds the Storybook documentation for production deployment.
 
 ## 🧪 Testing
 
 The project uses **Vitest** for unit testing and **Playwright** for E2E testing.
 
-- To run unit tests: `npm run test`
+- To run unit tests: `yarn test`
 - Writing test files: Ensure your test files end with `.test.ts` or `.test.tsx`.
 
 ## 📚 Storybook
 
 We use Storybook for component-driven development. It allows UI components to be developed and tested in isolation.
 
-- Start the interactive UI environment: `npm run storybook`
+- Start the interactive UI environment: `yarn storybook`
 - Stories are typically located next to their respective components (e.g., `Button.stories.tsx`).
