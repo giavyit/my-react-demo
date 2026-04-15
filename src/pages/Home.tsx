@@ -136,7 +136,7 @@ const Home = () => {
               
               {/* Pagination controls */}
               {totalPages > 1 && (
-                <div className="mt-6 flex items-center justify-between gap-3">
+                <div className="mt-6 flex items-center justify-center gap-3">
                   <Button
                     variant="outline"
                     onClick={() => setCurrentPage(p => Math.max(p - 1, 1))}

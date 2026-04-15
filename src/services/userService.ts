@@ -66,7 +66,7 @@ export const fetchUsers = async (): Promise<User[]> => {
     // Update cache
     cachedUsers = data;
     cacheTimestamp = Date.now();
-    console.log('Users fetched from API and cached');
+    console.info('Users fetched from API and cached');
     
     return data;
   } catch (error) {
